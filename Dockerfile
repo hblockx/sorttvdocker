@@ -1,7 +1,8 @@
 
+
 FROM phusion/baseimage
 MAINTAINER Jason Kingsbury
-
+RUN apt-get -q update
 
 
 # Install cron & dev stuff
